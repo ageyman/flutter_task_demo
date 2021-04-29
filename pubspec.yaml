@@ -1,0 +1,26 @@
+name: flutter_task_demo_1
+description: flutter_task_demo
+publish_to: 'none'
+version: 1.0.0+1
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  flutter_keychain:
+  http:
+  provider:
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  assets:
+    - assets/auth.json
+  uses-material-design: true
+
+
